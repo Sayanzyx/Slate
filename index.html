@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Slate</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0b0b0c;
+        --fg: #f4f4f5;
+        --muted: #a1a1aa;
+        --line: #26262a;
+        --card: #121214;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+      .wrap {
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 96px 24px 64px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 40px;
+      }
+      .mark {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid var(--line);
+        background: var(--card);
+        display: grid;
+        place-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.02em;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0;
+        font-weight: 600;
+      }
+      h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--muted);
+        margin: 48px 0 12px;
+        font-weight: 600;
+      }
+      p {
+        margin: 0 0 16px;
+      }
+      .lead {
+        font-size: 18px;
+        color: var(--fg);
+      }
+      ul {
+        margin: 0 0 16px;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      a {
+        color: var(--fg);
+      }
+      footer {
+        margin-top: 56px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="mark">S</div>
+        <h1>Slate</h1>
+      </header>
+
+      <p class="lead">Slate é uma página inicial pessoal para o navegador, executada localmente no computador do próprio usuário.</p>
+
+      <h2>O que faz</h2>
+      <p>Reúne, em uma única tela, as ferramentas do dia a dia:</p>
+      <ul>
+        <li>Notas e tarefas</li>
+        <li>Agenda e compromissos</li>
+        <li>Atalhos de sites e favoritos</li>
+        <li>Clima e notícias</li>
+      </ul>
+
+      <h2>Onde ficam os dados</h2>
+      <p>As informações ficam guardadas no próprio navegador do usuário, no computador dele. O Slate não envia dados para servidores externos.</p>
+
+      <h2>Contato</h2>
+      <p>Para dúvidas, escreva para <a href="mailto:beramurta019@gmail.com">beramurta019@gmail.com</a>.</p>
+
+      <footer>Projeto pessoal. Última atualização: novembro de 2026.</footer>
+    </div>
+  </body>
+</html>
